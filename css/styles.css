@@ -1,0 +1,121 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+  font-family: 'Caveat Brush', cursive;
+}
+
+/****HEADER****/
+.navbar {
+  padding: 0px;
+}
+
+.navbar-brand {
+  font-family: 'Caveat Brush', cursive;
+  color: #000;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: -5px;
+  margin-left: 20px;
+  line-height: .75;
+}
+
+.navbar, .navbar-expand-md, .navbar-light, .bg-light {
+  border-bottom: 2px solid;
+  color: #000;
+}
+
+.navbar-brand h1 {
+  color: #000;
+  font-family: 'Boogaloo', cursive;
+  font-weight: bold;
+}
+
+.navbar-collapse {
+  background-color: #FFA500;
+}
+
+.navbar-toggler {
+  margin-right: 20px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.nav-item  {
+  font-family: 'Boogaloo', cursive;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.nav-link, .nav-link:active, .nav-link:focus, .nav-link {
+color: #000 !important;
+}
+
+.nav-item :hover {
+  background-color: #ffff00;
+}
+
+.nav-item {
+  border-radius: 0;
+  border: 0;
+}
+
+.text-center {
+  font-family: 'Boogaloo', cursive;
+  color: #000;
+  font-size: 2.5em;
+  margin-top: 50px;
+}
+
+#item1 {
+  border-top: 2px solid;
+  color: #000;
+}
+
+#item2 {
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  color: #000;
+}
+
+/****Item 3 ID is not triggered because it inherits the 2px border from the .navbar****/
+
+
+.container-fluid {
+  position: relative;
+  padding: 5px;
+  margin: 0 auto 0 auto;
+}
+
+#row1, #row2, #row3 {
+  margin: 10px;
+}
+
+.row h2, p{
+  font-family: 'Boogaloo', cursive;
+  text-align: center;
+  color: #000;
+}
+
+.row p {
+  font-size: 1.5em;
+  line-height: 1;
+}
+
+.row a {
+  text-decoration: none;
+}
+
+#row1 {
+  background-color: #ffff00;
+}
+
+#row2 {
+  background-color: #00BFFF;
+}
+
+#row3 {
+  background-color: #5DFF00;
+}
